@@ -1,10 +1,10 @@
 using System;
-using JsonPitCore;
-using HDitem.Persist;
+using JsonPit;
+using Persist;
 
 namespace NyokaServerConfiguration
 {
-    public class NyokaRemoteInfo : JsonPitCore.Item
+    public class NyokaRemoteInfo : JsonPit.Item
     {
         public string RepositoryServer { get; set; }
         public string ZementisServer { get; set; }

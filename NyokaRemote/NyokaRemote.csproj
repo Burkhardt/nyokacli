@@ -1,19 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\HDitem.Persist\HDitem.Persist.csproj" />
+    <ProjectReference Include="..\..\Persist\Persist.csproj" />
     <ProjectReference Include="..\..\JsonPit\JsonPit.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="HDitem.Persist" Version="1.0.0" />
+    <PackageReference Include="Persist" Version="1.0.0" />
     <PackageReference Include="JsonPit" Version="1.0.0" />
     <PackageReference Include="OsLibCore" Version="1.0.0" />
-    <PackageReference Include="RaiUtilsCore" Version="1.0.0" />
+    <PackageReference Include="RaiUtils" Version="1.0.0" />
   </ItemGroup>
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
 </Project>
